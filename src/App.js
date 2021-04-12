@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import publish from './publish.jpg';
+import publish from './publish.JPG';
 import './App.css';
 import { withAuthenticator } from 'aws-amplify-react'
 import Amplify, { Auth } from 'aws-amplify';
