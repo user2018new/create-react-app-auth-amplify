@@ -7,6 +7,12 @@
   height: 40vmin;
 }
 
+.App-image {
+  height:auto;
+  width:auto;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
