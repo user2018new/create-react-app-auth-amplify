@@ -11,10 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={publish} alt="publish image" height={50} width={50} />
-          <p>
-            Welcome to Signout page, click the button for signout confirmation
-          </p>
+          <img src={publish} alt="publish image" height={300} width={300} />
           </header>
       </div>
     );
