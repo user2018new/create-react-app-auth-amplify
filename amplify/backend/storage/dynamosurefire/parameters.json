@@ -1,0 +1,5 @@
+{
+    "tableName": "dynamosurefire",
+    "partitionKeyName": "email",
+    "partitionKeyType": "S"
+}
