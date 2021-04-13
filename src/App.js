@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={publish} alt="publish image" height={600} width={600} />
+          <img src={publish} alt="publish image" height={500} width={500} />
           </header>
       </div>
     );
