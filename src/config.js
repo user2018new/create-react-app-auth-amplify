@@ -6,6 +6,6 @@ export default {
         APP_CLIENT_ID: "7nulot3naci3md9nvo5ovafa69"
     },
     API: {
-        ApiEndPoint : 'https://3tu0mi4o86.execute-api.ap-southeast-2.amazonaws.com/Staging'
+        ApiEndPoint : 'https://3tu0mi4o86.execute-api.ap-southeast-2.amazonaws.com/Options'
     }
 };
