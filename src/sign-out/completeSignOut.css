@@ -1,0 +1,46 @@
+@media all and (min-width: 480px) {
+    body{
+        background-color: darkgrey;
+    }
+
+    .signOut{
+        padding: 60px 0;
+        background-color: darkgrey;
+        right: auto;
+        font-family: "Britannic Bold";
+    }
+
+    .studentHeader{
+        font-size: 12pt;
+        font-family: "Bookman Old Style";
+        color: black;
+        margin-top: 20px;
+        margin-left: 20px;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+
+    .logButton {
+        font-size: 12pt;
+        font-family: "Bookman Old Style";
+        color: black;
+        margin-top: 20px;
+        margin-right: 20px;
+        position:absolute;
+        top:0;
+        right:0;
+    }
+
+    .signButton {
+        font-size: 18px;
+        border: none;
+        padding:10px;
+        background-color: darkblue;
+        color:white;
+        margin-top: 200px;
+        margin-left: 550px;
+        border: green;
+    }
+
+}

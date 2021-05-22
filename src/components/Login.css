@@ -1,0 +1,40 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 10px 0;
+    }
+
+    .LoginForm{
+        padding: 35px auto;
+    }
+
+    .emailLabel{
+        margin-right: 100px;
+        margin-top: 120px;
+        margin-left: 500px;
+    }
+
+    .email{
+        padding-right: 10Px;
+    }
+
+    .passwordLabel {
+        margin-right: 100px;
+        margin-top: 10px;
+        margin-left: 480px;
+    }
+
+    .password{
+        padding-right: 8Px;
+    }
+
+    .LoaderButton{
+        display: inline-block;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-left: 550px;
+        font-size: 16px;
+        font-family: Calibri;
+        border-bottom-style: ridge;
+    }
+
+}
