@@ -17,7 +17,7 @@ const SignOut = () => {
   const sendEmail = () => {
     const api = config.API.ApiEndPoint;
     const date = new Date();
-    const currentDateTime = date.toLocaleString('en-AU', { timeZone: 'Australia/Melbourne' });
+    const currentDateTime = date.toLocaleString();
     const studentDetails = { name: userInfo.username, time: currentDateTime };
     axios.post(api, studentDetails)
       .then(response => {
