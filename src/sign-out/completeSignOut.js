@@ -17,16 +17,21 @@ const SignOut = () => {
   const sendEmail = () => {
     const api = config.API.ApiEndPoint;
     const date = new Date();
-    const currentDateTime = date.toLocaleString('en-AU', { timeZone: 'Australia/Melbourne' })
+    const currentDateTime = date.toLocaleString('en-AU', { timeZone: 'Australia/Melbourne' });
     const studentDetails = { name: userInfo.username, time: currentDateTime };
     axios.post(api, studentDetails)
       .then(response => {
-        console.log(response);
+          console.log();
+        if(response.data.errorMessage === undefined){
+            alert('Your Sign Out Notification Has Been Sent To Your Admin. You Can Log Out now !');
+        }
+        else {
+            alert('Sign Out Notification Has Not Been Sent Out. Please Contact your Admin');
+        }
       })
       .catch(error => {
         console.log(error);
       });
-    alert('Your Sign Out Notification Has Been Sent To Your Admin. You Can Log Out now !')
   };
 
   const logOut = () => {
