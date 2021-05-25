@@ -55,12 +55,12 @@ const Login = () => {
         return (
             <div className= "Login">
             <h1 style={headerStyle}>
-                Welcome To Sign Out Application !
+                NBSC SCHOOL SIGNOUT APPLICATION
             </h1>
                 <div className="DivForm">
                     <form className="LoginForm" onSubmit={handleSubmit}>
                         <FormGroup className ='emailLabel' controlId = "email" contbssize="large">
-                            <FormLabel className = 'email'>Email</FormLabel>
+                            <FormLabel className = 'email'>Userid/Emailid</FormLabel>
                             <FormControl autoFocus type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
                         </FormGroup>
                         <FormGroup className = 'passwordLabel' controlId="password" bssize="large">

@@ -39,7 +39,10 @@ const SignOut = () => {
   if (flag === 'true') {
     return (
       <div className="signOut">
-        <h3 className="studentHeader">Welcome,{userInfo.username}</h3>
+        <h3 className="studentHeader">Hi {userInfo.username},
+        </h3>
+        <p className="WelcomeNote">Welcome To Signout Application.<br/>To Signout, click the "Complete Sign Out" Button
+            <br/>Welcome An e-mail notification will be sent to school admin.</p>
         <button className="logButton" onClick={logOut}>
           Log Out
         </button>
